@@ -1,7 +1,8 @@
 public class ExemploFor {
     public static void main(String[] args) {
-        for (int carneirinhos = 1; carneirinhos <= 20; carneirinhos++) {
-            System.out.println("Contando carneirinhos " + carneirinhos);
+        String Alunos[] = { "Jão", "Caique", "Pedro", "Andé", "Thainize", "Olga" };
+        for (int contador = 0; contador < Alunos.length; contador++) {
+            System.out.println("O aluno do indice " + contador + " é " + Alunos[contador]);
         }
     }
 }
